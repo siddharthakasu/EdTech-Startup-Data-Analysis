@@ -1,62 +1,66 @@
-EdTech Online Courses Analysis
+📊 EdTech Startup Data Analysis
 
-This project analyzes trends, performance, and insights in the EdTech domain using data on online courses. The analysis was performed using Python (CSV data) and Power BI (interactive dashboards) to extract meaningful patterns and visualize results.
+Data + Visuals = Insights
+This project uncovers trends in the online learning space using Power BI dashboards and CSV data analysis.
+
+
+
+
+
 
 📂 Project Structure
+EdTech-Startup-Data-Analysis/
+├── Online_Courses.csv      # Raw dataset of online courses
+├── Edtec Analysis.pbix     # Power BI report/dashboard
+└── README.md               # Project documentation
 
-Online_Courses.csv → Contains raw data on courses (titles, ratings, price, duration, etc.)
+🎯 Objective
 
-Edtec Analysis.pbix → Power BI report for visualization and insights
+Analyze patterns in online course data
 
-README.md → Documentation of the project
+Study price vs. rating relationships
 
-🔍 Objective
+Track instructor performance
 
-The primary goal of this project is to:
-
-Identify key patterns in online course data
-
-Analyze ratings, pricing strategies, and learner engagement
-
-Build an interactive dashboard for decision-making in EdTech
+Visualize course growth trends over time
 
 🛠 Tools & Technologies
 
-Python (for preprocessing and data cleaning)
+Python → Data preprocessing & cleaning
 
-Power BI (for building dashboards and visual analytics)
+Power BI → Interactive dashboards & visual analytics
 
-Excel/CSV (raw data format)
+Excel/CSV → Source data format
 
-📊 Key Insights (from the Power BI dashboard)
+🔥 Key Insights (from Power BI Dashboard)
 
-Popular course categories with highest enrollments
+Top course categories driving enrollments
 
-Price vs. Rating distribution analysis
+Price vs Rating correlation to find value courses
 
-Instructor performance overview
+Instructor performance heatmaps
 
-Growth patterns in course creation over time
+Growth trends in course creation over years
 
 🚀 How to Use
 
-Clone this repository:
+Clone this repository
 
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/<your-username>/EdTech-Startup-Data-Analysis.git
 
 
-Open the Edtec Analysis.pbix file in Power BI Desktop to explore the interactive dashboard.
+Open Edtec Analysis.pbix in Power BI Desktop to explore the interactive dashboard.
 
-(Optional) Use the Online_Courses.csv file for additional data processing in Python or Excel.
+(Optional) Process Online_Courses.csv with Python or Excel for additional custom analysis.
 
-📌 Future Improvements
+📌 Future Enhancements
 
-Add automated data refresh using APIs
+Add automated API data refresh
 
-Include predictive analytics for course demand
+Build predictive models for course demand
 
-Deploy the dashboard online for public access
+Host dashboards online for public access
 
 🤝 Contributing
 
-Contributions are welcome! Feel free to fork the repo, raise issues, or submit pull requests.
+Contributions are welcome! Fork this repo, create a branch, and submit your pull request.
